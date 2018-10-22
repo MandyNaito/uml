@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>Just Clean</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="css/slider.css">
+        <!-- owl craousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- Template Javascript Files
+        ================================================== -->
+        <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- bootstrap js -->
+
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- slider js -->
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+        <header id="top-bar" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html" >
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- /logo -->
+                </div>
+                <!-- main menu -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" >Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solicitar serviço</span></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Minhas Solicitações</span></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> Fulano de Tal<span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Configurações</a></li>
+                                        <li><a href="login.html"><i class="glyphicon glyphicon-log-out"></i> Sair</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+        
+        
+        <!-- 
+        ================================================== 
+            Global Page Section Start
+        ================================================== -->
+        <section class="global-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h2>Solicitar Serviço</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section><!--/#page-header-->
+
+
+        <!-- 
+        ================================================== 
+            Cadastro Section Start
+        ================================================== -->
+        <section id="cliente">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">Formulário</h2>
+                            <div class="contact-form">
+                                <form id="contact-form" method="post" role="form">                                    
+                                    
+									<div class="row">
+										<div class="form-group col-md-4 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="ordem">Ordem de Serviço</label>
+											<input type="text" placeholder="Ordem de Serviço" class="form-control" name="ordem" id="ordem" disabled value="05986">
+										</div>
+										<div class="form-group col-md-8 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="servico">Tipo de serviço <span class="required">*</span></label>
+											<select id="servico" class="form-control">
+											  <option value="10">Limpeza</option>
+											  <option value="10">Elétrica</option>
+											  <option value="10">Encanamento</option>
+											  <option value="10" >Organização</option>
+											</select>
+										</div>
+									</div>		
+									<div class="row">
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+										
+											<label for="tam">Metro Quadrado <span class="required">*</span></label>
+											<input type="text" placeholder="Quantidade" class="form-control" name="tam" id="tam">
+										
+										<!--
+											<label for="tam">Hora <span class="required">*</span></label>
+											<input type="text" placeholder="Quantidade" class="form-control" name="tam" id="tam">
+										-->
+										<!--
+											<label for="tam">Armários e Cômodos <span class="required">*</span></label>
+											<input type="text" placeholder="Quantidade" class="form-control" name="tam" id="tam">
+										-->
+										</div>
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="vlserv">Valor do serviço (R$)</label>
+											<input type="text" placeholder="Valor do serviço (R$)" class="form-control" name="vlserv" id="vlserv" disabled>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="formapgto">Forma de pagamento</label>
+											<select id="formapgto" class="form-control">
+											  <option value="10">Cartão de crédito</option>
+											</select>
+										</div>
+									</div>			
+                                    <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+										<input type="checkbox" id="ckendereco"> Mesmo endereço do cliente <br>
+                                    </div>
+									<div class="row">
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="cep">CEP <span class="required">*</span></label>
+											<input type="text" placeholder="CEP" class="form-control" name="cep" id="cep">
+										</div>
+									</div> 		
+									<div class="row">
+									
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="dsendereco">Endereço</label>
+											<input type="text" placeholder="Endereço" class="form-control" name="dsendereco" id="dsendereco" disabled=true>
+										</div>
+										<div class="form-group col-md-2 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="nrnumeroend">Número <span class="required">*</span></label>
+											<input type="text" placeholder="Número" class="form-control" name="nrnumeroend" id="nrnumeroend">
+										</div>
+										<div class="form-group col-md-4 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="nmcomplemento">Complemento</label>
+											<input type="text" placeholder="Complemento" class="form-control" name="nmcomplemento" id="nmcomplemento">
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="nmbairro">Bairro</label>
+											<input type="text" placeholder="Bairro" class="form-control" name="nmbairro" id="nmbairro" disabled=true>
+										</div>
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="nmcidade">Cidade</label>
+											<input type="text" placeholder="Cidade" class="form-control" name="nmcidade" id="nmcidade" disabled=true>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="nmestado">Estado</label>
+											<input type="text" placeholder="Estado" class="form-control" name="nmestado" id="nmestado" disabled=true>
+										</div>
+									</div>
+									<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
+										<label for="resp">Responsável <span class="required">*</span></label>
+										<div class="input-group">
+											<input type="text" placeholder="Responsável" class="form-control" name="resp" id="resp" >
+											<span class="input-group-btn">
+												<a class="btn btn-success" id="buscar" href="#" title="Buscar"><i class="glyphicon glyphicon-search"></i></a>
+											</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="dtsolic">Data da solicitação <span class="required">*</span></label>
+											<input type="datetime-local" placeholder="Data da solicitação" class="form-control" name="dtsolic" id="dtsolic">
+										</div>
+										<div class="form-group col-md-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+											<label for="dtexec">Data da execução <span class="required">*</span></label>
+											<input type="datetime-local" placeholder="Data da execução" class="form-control" name="dtexec" id="dtexec">
+										</div>
+									</div>
+									<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+										<table class="table table-striped table-responsive table-hover" cellspacing="0" cellpadding="0">
+										   <thead>
+											  <tr>
+												 <th>Produto</th>
+												 <th class="actions">Quantidade</th>
+											  </tr>
+										   </thead>
+										</table>
+                                    </div>
+									<div class="row">
+										<div class="col-md-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
+											<div id="actions" class="row">
+												<div class="col-md-12">
+													<input type="submit" id="contact-submit" class="btn btn-success" value="Salvar">
+													<input type="reset" class="btn btn-default btn-cancel" value="Cancelar">
+												</div>
+											</div>
+										</div>
+									</div> 
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+            <!--
+            ==================================================
+            Footer Section Start
+            ================================================== -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="col-md-12">
+                        <p class="copyright">Just Clean &copy Amanda Naito, Marcelo Benigno e Rafael Vacchi <span>2016/2</span></a></p>
+                    </div>
+                </div>
+            </footer> <!-- /#footer -->
+                
+        </body>
+    </html>
